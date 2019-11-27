@@ -1,0 +1,26 @@
+<resources>
+
+    <!--Nombres para los botones -->
+    <string name="app_name">Android_HTTP</string>
+    <string name="btn_altas">Agregar</string>
+    <string name="btn_bajas">Eliminar</string>
+    <string name="btn_cambios">Edditar-Eliminar</string>
+    <string name="btn_consultas">Consultar</string>
+
+    <!--Nombres para las cajas de texto -->
+    <string name="txt_numero_control">Numero de Control</string>
+    <string name="txt_nombre">Nombre</string>
+    <string name="txt_primer_ap">Primer_Ap</string>
+    <string name="txt_segundo_ap">Segundo_Ap</string>
+    <string name="txt_edad">Edad</string>
+    <string name="txt_semestre">Semestre</string>
+    <string name="txt_carrera">Carrera</string>
+    <string name="busqueda">Ingrese palabra clave</string>
+    <string name="todos">Mostrar Todos</string>
+    <string name="guardar">Guardar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="usaurio">Usuario</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="ingresar">Ingresar</string>
+
+</resources>

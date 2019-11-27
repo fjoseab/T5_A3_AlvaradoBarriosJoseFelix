@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityCambios">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/clave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/busqueda"
+            android:inputType="textPersonName" />
+
+        <Spinner
+            android:id="@+id/opciones"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/mostrar_espeifico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="consultarAlumnos"
+            android:text="@string/btn_consultas" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:id="@+id/caja_Num_Control"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@android:color/white"
+                    android:hint="@string/txt_numero_control"
+                    android:inputType="text"
+                    android:padding="10dp"></EditText>
+
+                <EditText
+                    android:id="@+id/caja_Nombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@android:color/white"
+                    android:hint="@string/txt_nombre"
+                    android:inputType="text"
+                    android:padding="10dp"></EditText>
+
+                <EditText
+                    android:id="@+id/caja_Primer_Ap"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@android:color/white"
+                    android:hint="@string/txt_primer_ap"
+                    android:inputType="text"
+                    android:padding="10dp"></EditText>
+
+                <EditText
+                    android:id="@+id/caja_Segundo_Ap"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@android:color/white"
+                    android:hint="@string/txt_segundo_ap"
+                    android:inputType="text"
+                    android:padding="10dp"></EditText>
+
+                <EditText
+                    android:id="@+id/caja_Edad"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@android:color/white"
+                    android:hint="@string/txt_edad"
+                    android:inputType="number"
+                    android:padding="10dp"></EditText>
+
+                <EditText
+                    android:id="@+id/caja_Semestre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@android:color/white"
+                    android:hint="@string/txt_semestre"
+                    android:inputType="number"
+                    android:padding="10dp"></EditText>
+
+                <EditText
+                    android:id="@+id/caja_Carrera"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@android:color/white"
+                    android:hint="@string/txt_carrera"
+                    android:inputType="text"
+                    android:padding="10dp"></EditText>
+
+                <Button
+                    android:id="@+id/guardar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="consultarAlumnos"
+                    android:text="@string/guardar" />
+
+                <Button
+                    android:id="@+id/eliminar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="consultarAlumnos"
+                    android:text="@string/eliminar" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

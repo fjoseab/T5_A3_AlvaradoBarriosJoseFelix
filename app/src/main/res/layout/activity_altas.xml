@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    android:background="#304769"
+    android:gravity="center"
+    android:padding="50dp">
+
+    <EditText
+        android:id="@+id/caja_Num_Control"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@android:color/white"
+        android:hint="@string/txt_numero_control"
+        android:inputType="text"
+        android:padding="10dp"></EditText>
+
+    <EditText
+        android:id="@+id/caja_Nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@android:color/white"
+        android:hint="@string/txt_nombre"
+        android:inputType="text"
+        android:padding="10dp"
+        android:text="1"></EditText>
+
+    <EditText
+        android:id="@+id/caja_Primer_Ap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@android:color/white"
+        android:hint="@string/txt_primer_ap"
+        android:inputType="text"
+        android:padding="10dp"
+        android:text="1"></EditText>
+
+    <EditText
+        android:id="@+id/caja_Segundo_Ap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@android:color/white"
+        android:hint="@string/txt_segundo_ap"
+        android:inputType="text"
+        android:padding="10dp"
+        android:text="1"></EditText>
+
+    <EditText
+        android:id="@+id/caja_Edad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@android:color/white"
+        android:hint="@string/txt_edad"
+        android:inputType="number"
+        android:padding="10dp"
+        android:text="1"></EditText>
+
+    <EditText
+        android:id="@+id/caja_Semestre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@android:color/white"
+        android:hint="@string/txt_semestre"
+        android:inputType="number"
+        android:padding="10dp"
+        android:text="1"></EditText>
+
+    <EditText
+        android:id="@+id/caja_Carrera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@android:color/white"
+        android:hint="@string/txt_carrera"
+        android:inputType="text"
+        android:padding="10dp"
+        android:text="1"></EditText>
+
+    <Button
+        android:id="@+id/btn_dar_alta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@android:color/holo_orange_dark"
+        android:onClick="registrarAlumno"
+        android:text="@string/btn_altas"
+        android:textColor="#000"></Button>
+</LinearLayout>
